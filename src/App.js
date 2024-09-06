@@ -7,13 +7,13 @@ import Login from './components/Login';
 import Register from './components/Register';
 
 function App() {
-  const [tasks, setTasks] = useState([]);  // State to hold tasks
+  const [tasks, setTasks] = useState([]);
 
-  const fetchTasks = async () => {  // Function to fetch tasks
+  const fetchTasks = async () => {
     const response = await axios.get('http://demo2.z-bit.ee/api/tasks', {
       headers: { Authorization: `Bearer ${localStorage.getItem('userToken')}` }
     });
-    setTasks(response.data);  // Updating state with fetched tasks
+    setTasks(response.data);
   };
 
   return (
