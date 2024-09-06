@@ -1,1 +1,1 @@
-
+Siin on selle kolmanda kodutöö harjutuse "Ülesannete nimekirja klientrakendus (ToDo)" failid. See demo2.z-bit lehekülg enam ei tööta kui ma sinna lähen, nii et see ülesanne võib natuke scuffed olla, aga ma üritasin teha, mis sain.
